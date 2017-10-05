@@ -1,9 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design.Serialization;
-using System.Globalization;
-using System.Net.Configuration;
-using Ripple.Core.Enums;
 using Ripple.Core.Types;
 using Ripple.Signing;
 using Ripple.Testing.Client;

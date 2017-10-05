@@ -7,7 +7,7 @@ namespace Ripple.Signing.Utils
         public static byte[] PublicKeyHash(byte[] bytes)
         {
             var hash = SHA256.Create();
-            var riper = RIPEMD160.Create();
+            var riper = HashAlgorithm.Create();
             bytes = hash.ComputeHash(bytes, 0, bytes.Length);
             return riper.ComputeHash(bytes, 0, bytes.Length);
         }

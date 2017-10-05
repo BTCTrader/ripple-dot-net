@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Net;
+using System.Reflection;
 using log4net;
 using log4net.Appender;
 using log4net.Core;
@@ -32,7 +33,7 @@ namespace Ripple.Testing.Utils
 
         private static void ConfigureRoot(Level level, IAppender appender)
         {
-            var hierarchy = (Hierarchy) LogManager.GetRepository();
+            var hierarchy = (Hierarchy) LogManager.GetRepository("rep");
             hierarchy.Root.AddAppender(appender);
             hierarchy.Root.Level = level ?? Level.All;
             hierarchy.Configured = true;
