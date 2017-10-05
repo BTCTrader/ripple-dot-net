@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using SshNet.Security.Cryptography;
+using SHA256 = System.Security.Cryptography.SHA256;
 
 namespace Ripple.Signing.Utils
 {
@@ -7,7 +8,7 @@ namespace Ripple.Signing.Utils
         public static byte[] PublicKeyHash(byte[] bytes)
         {
             var hash = SHA256.Create();
-            var riper = HashAlgorithm.Create();
+            var riper = new RIPEMD160();
             bytes = hash.ComputeHash(bytes, 0, bytes.Length);
             return riper.ComputeHash(bytes, 0, bytes.Length);
         }
