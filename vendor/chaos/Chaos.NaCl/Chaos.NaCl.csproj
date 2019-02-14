@@ -2,10 +2,14 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Product>Chaos.NaCl cryptography library</Product>
-    <Company>Chaos.NaCl</Company>
+    <Company>CodesInChaos</Company>
     <Description>C# port of the NaCl cryptography library</Description>
     <Copyright>public domain</Copyright>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0.0</Version>
+    <PackageLicenseUrl>https://github.com/CodesInChaos/Chaos.NaCl/raw/master/License.txt</PackageLicenseUrl>
+    <Authors>CodesInChaos</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 </Project>

@@ -2,12 +2,18 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Product>Ripple.TxSigning</Product>
-    <Company></Company>
-    <Description></Description>
+    <Company>Ripple</Company>
+    <Description>A transaction signing library for the XRP Ledger.</Description>
     <Copyright>Copyright ©  2015</Copyright>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
-    <Authors />
+    <Authors>Ripple</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>0.1.0.0</Version>
+    <PackageLicenseUrl>https://github.com/ilianpinzon/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/ilianpinzon/ripple-dot-net</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
@@ -15,5 +21,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Ripple.Core\Ripple.Core.csproj" />
     <ProjectReference Include="..\Ripple.Signing\Ripple.Signing.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Ripple.TxSigning.nuspec">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
