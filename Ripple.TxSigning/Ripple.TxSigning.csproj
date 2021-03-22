@@ -2,17 +2,17 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Product>Ripple.TxSigning</Product>
-    <Company>Ripple</Company>
+    <Company>BTCTrader</Company>
     <Description>A transaction signing library for the XRP Ledger.</Description>
     <Copyright>Copyright ©  2015</Copyright>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
-    <Authors>Ripple</Authors>
+    <Authors>BTCTrader</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.1.0.0</Version>
-    <PackageLicenseUrl>https://github.com/ilianpinzon/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/BTCTrader/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl />
-    <RepositoryUrl>https://github.com/ilianpinzon/ripple-dot-net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/ripple-dot-net</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
