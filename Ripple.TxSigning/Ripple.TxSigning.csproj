@@ -1,5 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>BTCTrader.Ripple.TxSigning</PackageId>
+    <Version>0.1.0.0</Version>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Product>Ripple.TxSigning</Product>
     <Company>BTCTrader</Company>
@@ -9,7 +11,6 @@
     <FileVersion>0.1.0.0</FileVersion>
     <Authors>BTCTrader</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0.0</Version>
     <PackageLicenseUrl>https://github.com/BTCTrader/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl />
     <RepositoryUrl>https://github.com/BTCTrader/ripple-dot-net</RepositoryUrl>
