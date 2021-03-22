@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>BTCTrader.Ripple.TxSigning</PackageId>
+    <PackageId>BTCTrader.Ripple.Core</PackageId>
     <Version>0.1.0.0</Version>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Product>Ripple.Core</Product>
