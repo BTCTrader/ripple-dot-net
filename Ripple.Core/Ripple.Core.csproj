@@ -13,6 +13,7 @@
     <Version>0.1.0.0</Version>
     <PackageProjectUrl></PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/BTCTrader/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/BTCTrader/ripple-dot-net</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>

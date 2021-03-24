@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Product>Ripple.Address</Product>
-    <Company>Ripple</Company>
+    <Product>BTCTrader.Ripple.Address</Product>
+    <Company>BTCTrader</Company>
     <Description></Description>
     <Copyright>Copyright ©  2015</Copyright>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
-    <Authors>Ripple</Authors>
+    <Authors>BTCTrader</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Version>0.1.0.0</Version>
-    <PackageLicenseUrl>https://github.com/ilianpinzon/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/BTCTrader/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ilianpinzon/ripple-dot-net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/ripple-dot-net</RepositoryUrl>
   </PropertyGroup>
 </Project>
